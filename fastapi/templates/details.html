@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Questions</title>
+  </head>
+  <body>
+    {% if question == None %}
+    <p>Error loading question</p>
+    {% else %}
+
+    <h1>Question Id: {{ question.id }}</h1>
+    <p>{{question.question_text}}</p>
+    <p>{{question.pub_date}}</p>
+
+    {% endif %}
+  </body>
+</html>
