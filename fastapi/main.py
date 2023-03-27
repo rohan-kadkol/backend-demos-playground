@@ -4,8 +4,6 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.templating import Jinja2Templates
 
-from databases import Database
-import sqlalchemy
 
 import time
 from helpers.database_operations import DatabaseOperations
